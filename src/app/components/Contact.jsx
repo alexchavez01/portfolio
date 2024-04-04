@@ -1,5 +1,6 @@
 import React from 'react';
 import Link from 'next/link';
+import Image from 'next/image';
 import AnimateText from './animations/AnimateText';
 
 const Contact = () => {
@@ -13,7 +14,7 @@ const Contact = () => {
                     </h2>
                     <div className='socials flex flex-row justify-center gap-4'>
                         <Link href='https://github.com/alexchavez01'>
-                            <img 
+                            <Image
                                 className='h-[50px] w-[50px] inline-block'
                                 src="images/github.png" 
                                 alt="Github Icon" />
@@ -21,7 +22,7 @@ const Contact = () => {
                         </Link>
 
                         <Link href='https://www.linkedin.com/in/alex-chavez30/'>
-                            <img 
+                            <Image 
                                 className='h-[50px] w-[50px] inline-block'
                                 src="images/linkedin.png" 
                                 alt="LinkedIn Icon" />

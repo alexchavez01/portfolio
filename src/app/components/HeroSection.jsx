@@ -16,11 +16,11 @@ const HeroSection = () => {
                     <TypeAnimation 
                         className=" text-transparent bg-clip-text bg-gradient-to-r from-blue-400 to-purple-600" //maybe here or with text above
                         sequence={[
-                            'Alex',
+                            "Alex",
                             1000,
-                            'Web Developer',
+                            "Web Developer",
                             1000,
-                            'Software Engineer',
+                            "Software Engineer",
                             1000
                         ]}
                         wrapper="span"
