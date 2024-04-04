@@ -12,7 +12,7 @@ const Projects = () => {
                 <ProjectCard
                     src = "/images/image2.png"
                     title = "Flask Website"
-                    description = " Deployed a Python Flask Website"
+                    description = " Deployed a Python Website"
                     />
                 <ProjectCard
                     src = "/images/image2.png"
