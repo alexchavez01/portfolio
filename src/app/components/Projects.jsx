@@ -20,7 +20,7 @@ const Projects = () => {
                     description = "Hamburger"
                     />
                 <ProjectCard
-                    src = "/images/image2.png"
+                    src="images/linkedin.png" 
                     title = "App"
                     description = "Created App"
                     />
