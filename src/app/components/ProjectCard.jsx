@@ -11,7 +11,7 @@ const ProjectCard = ({src, title, description}) => {
             src={src}
             width = {300}
             height = {300}
-            className = 'w-full'
+            className = 'w-full h-full object-contain'
             />
         
         <div className='relative p-4'>
