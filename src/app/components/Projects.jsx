@@ -24,6 +24,11 @@ const Projects = () => {
                     title = "App"
                     description = "Created App"
                     />
+                <ProjectCard
+                    src="/images/image2.png" 
+                    title = "Website"
+                    description = "Created Website"
+                    />
             </div>
         </div>
     </section>
