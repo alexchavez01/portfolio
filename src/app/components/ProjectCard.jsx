@@ -10,8 +10,8 @@ const ProjectCard = ({src, title, description}) => {
         <Image
             src={src}
             width = {300}
-            height = {300}
-            className = 'w-full h-full object-contain'
+            height = {250}
+            className = 'w-full'
             />
         
         <div className='relative p-4'>
