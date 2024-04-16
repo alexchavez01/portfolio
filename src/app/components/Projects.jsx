@@ -11,17 +11,17 @@ const Projects = () => {
         </h1>
         <div className='h-full w-full flex flex-col items-center justify-center md:flex-row gap-10 px-10'>
           <Procard
-              src="/images/image2.png"
+              src="images/image2.png"
               title="Flask Website"
               description="Deployed a Python Website"
           />
           <Procard
-              src="/images/image2.png"
+              src="images/image2.png"
               title="PyGame"
               description="A game developed using Python's PyGame library"
           />
           <Procard
-              src="/images/image2.png"
+              src="images/image2.png"
               title="Game"
               description="A game"
           />
