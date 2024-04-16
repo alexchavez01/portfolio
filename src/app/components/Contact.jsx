@@ -14,24 +14,25 @@ const Contact = () => {
                     </h2>
                     <div className='socials flex flex-row justify-center gap-4'>
                         <Link href='https://github.com/alexchavez01'>
-                            <Image
+                            <img
                                 src="/images/github.png" // Corrected path
                                 alt="GitHub Logo"
-                                width={300}  // Ensure to include width
-                                height={300} // Ensure to include height
-                                className="w-full h-full object-contain"
+                                width={50}  // Ensure to include width
+                                height={50} // Ensure to include height
+                                className='h-[50px] w-[50px] inline-block'
+
                             />
 
                             
                         </Link>
 
                         <Link href='https://www.linkedin.com/in/alex-chavez30/'>
-                            <Image 
+                            <img
                                 className='h-[50px] w-[50px] inline-block'
                                 src="/images/linkedin.png" 
                                 alt="LinkedIn Icon" 
-                                width={300} // Specify the width
-                                height={300} // Specify the height
+                                width={50} // Specify the width
+                                height={50} // Specify the height
                                 />
                           
                         </Link>

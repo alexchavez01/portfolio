@@ -8,7 +8,7 @@ import Link from "next/link";
 const Procard = ({ src, title, description }) => {
   return (
     <CardContainer className="flex flex-col items-center justify-center inter-var">
-      <CardBody className="transition-shadow duration-300 ease-in-out hover:shadow-xl bg-gray-50 relative group/card  dark:hover:shadow-2xl dark:hover:shadow-emerald-500/[0.1] dark:bg-black dark:border-white/[0.2] border-black/[0.1] w-full sm:w-[25rem] h-auto rounded-xl p-6 border">
+      <CardBody className="transition-shadow duration-300 ease-in-out hover:shadow-2xl relative group/card hover:shadow-emerald-500/[0.1] bg-black border-white/[0.2] w-[25rem] md:max-w-[auto] h-auto rounded-xl p-6 border">
         <div className="flex flex-col items-center justify-center">
           <CardItem
             translateZ="50"
@@ -24,7 +24,7 @@ const Procard = ({ src, title, description }) => {
             {description}
           </CardItem>
           <CardItem translateZ="100" className="w-full">
-            <Image
+            <img
               src={src}
               height="1000"
               width="1000"

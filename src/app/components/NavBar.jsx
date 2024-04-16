@@ -46,7 +46,7 @@ const NavBar = () => {
         <AnimatePresence>
             {!isFloating ? (
                 <nav className="absolute top-0 left-0 right-0 z-10 px-10">
-                    <div className="flex flex-wrap justify-between items-center mx-auto px-6 py-3 bg-[#121212] bg-opacity-100">
+                    <div className="flex flex-wrap justify-between items-center mx-auto px-6 py-3 bg-[#12121212] bg-opacity-100">
                         <Link href={'/'} className="text-2xl md:text-5xl text-white font-semibold">
                             Logo
                         </Link>
@@ -74,7 +74,7 @@ const NavBar = () => {
                     transition={{
                         duration: 0.2,
                     }}
-                    className="mobile-menu flex w-fit fixed top-10 inset-x-0 mx-auto border border-transparent dark:border-white/[0.2] rounded-full dark:bg-[#121212] bg-white shadow z-[5000] lg:pr-3 lg:pl-3 lg:py-3 md:p-4 items-center justify-center space-x-4 "
+                    className="mobile-menu flex w-fit fixed top-10 inset-x-0 mx-auto border border-white/[0.2] rounded-full bg-[#12121212] shadow z-[5000] lg:pr-3 lg:pl-3 lg:py-3 md:p-4 items-center justify-center space-x-4 "
                 >
                     {navLinks.map((link, index) => (
                         <NavLinks key={index} href={link.path} title={link.title} />

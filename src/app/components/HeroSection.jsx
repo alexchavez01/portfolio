@@ -42,7 +42,7 @@ const HeroSection = () => {
                         
             <div className="col-span-4 place-self-center mt-10 lg:mt-5">
                 <div className="rounded-full bg-[#181818] w-[275px] h-[275px] lg:w-[300px] lg:h-[300px] relative">
-                    <Image
+                    <img
                         src="/images/hero-image.webp"
                         alt="hero image"
                         className="absolute transform -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2"

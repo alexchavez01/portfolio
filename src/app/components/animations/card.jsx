@@ -57,10 +57,10 @@ export const CardItem = ({
   as: Tag = "div",
   children,
   className,
-  //translateZ = 0,
   rotateX = 0,
   rotateY = 0,
   rotateZ = 0,
+  translateZ = 0,
   ...rest
 }) => {
   const ref = useRef(null);
