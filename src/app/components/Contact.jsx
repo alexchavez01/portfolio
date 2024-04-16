@@ -15,7 +15,7 @@ const Contact = () => {
                     <div className='socials flex flex-row justify-center gap-4'>
                         <Link href='https://github.com/alexchavez01'>
                             <img
-                                src="/images/github.png" // Corrected path
+                                src="images/github.png" // Corrected path
                                 alt="GitHub Logo"
                                 width={50}  // Ensure to include width
                                 height={50} // Ensure to include height
@@ -29,7 +29,7 @@ const Contact = () => {
                         <Link href='https://www.linkedin.com/in/alex-chavez30/'>
                             <img
                                 className='h-[50px] w-[50px] inline-block'
-                                src="/images/linkedin.png" 
+                                src="images/linkedin.png" 
                                 alt="LinkedIn Icon" 
                                 width={50} // Specify the width
                                 height={50} // Specify the height
