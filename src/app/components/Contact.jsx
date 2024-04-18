@@ -1,6 +1,9 @@
 import React from 'react';
 import Link from 'next/link';
 import AnimateText from './animations/AnimateText';
+import { FaGithub } from "react-icons/fa";
+import { FaLinkedin } from "react-icons/fa6";
+import { CiMail } from "react-icons/ci";
 
 const Contact = () => {
   return (
@@ -12,12 +15,10 @@ const Contact = () => {
                         <AnimateText/>
                     </h2>
                     <div className='socials flex flex-row justify-center gap-4'>
+
                         <Link href='https://github.com/alexchavez01'>
-                            <img
-                                src="images/github.png" // Corrected path
+                            <FaGithub
                                 alt="GitHub Logo"
-                                width={50}  // Ensure to include width
-                                height={50} // Ensure to include height
                                 className='h-[50px] w-[50px] inline-block'
 
                             />
@@ -26,15 +27,19 @@ const Contact = () => {
                         </Link>
 
                         <Link href='https://www.linkedin.com/in/alex-chavez30/'>
-                            <img
+                            <FaLinkedin
                                 className='h-[50px] w-[50px] inline-block'
-                                src="images/linkedin.png" 
                                 alt="LinkedIn Icon" 
-                                width={50} // Specify the width
-                                height={50} // Specify the height
-                                />
+                            />
                           
                         </Link>
+
+                        <a href="mailto:Alexander.chavez4378@gmail.com" className="inline-block">
+                            <CiMail 
+                                className="h-[50px] w-[50px]" 
+                                alt="Mail Icon" 
+                            />
+                        </a>
 
                     </div>
                 </div>    
