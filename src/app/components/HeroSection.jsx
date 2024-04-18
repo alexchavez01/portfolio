@@ -38,7 +38,11 @@ const HeroSection = () => {
                 </div>
 
                 {/* Avatar section with draggable functionality and corner markers */}
-                <div className="col-span-4 place-self-center mt-10 lg:mt-5">
+                <div className="col-span-4 place-self-center mt-10 lg:mt-5">  
+
+                    <div className="absolute top-[9rem] right-[8rem] text-gray-600">
+                        Drag </div> {/* Top-left corner */}   
+
                     <motion.div
                         drag // Enables dragging of the component.
                         dragConstraints={{ left: -100, right: 200, top: 0, bottom: 300 }} // Limits drag area.
@@ -49,7 +53,8 @@ const HeroSection = () => {
                         <div className="absolute right-0 top-1/2 transform -translate-y-1/2 bg-gray-200 w-2 h-2 rounded-full"></div> {/* Top-right corner */}
                         <div className="absolute bottom-0 left-1/2 transform -translate-x-1/2 bg-gray-200 w-2 h-2 rounded-full"></div> {/* Bottom-left corner */}
                         <div className="absolute left-0 top-1/2 transform -translate-y-1/2 bg-gray-200 w-2 h-2 rounded-full"></div> {/* Bottom-right corner */}
-
+                        
+                        
                         <img
                             src="images/avatar.png"
                             alt="hero image"
