@@ -1,7 +1,6 @@
 "use client";
-
 import React, { createContext, useState, useContext, useRef, useEffect } from "react";
-import Image from "next/image";
+
 
 // Create a context to manage mouse enter state across components
 const MouseEnterContext = createContext(null);
@@ -33,11 +32,12 @@ export const CardContainer = ({ children, className, containerClassName }) => {
   return (
     <MouseEnterContext.Provider value={[isMouseEntered, setIsMouseEntered]}>
       <div className={("py-20 flex items-center justify-center", containerClassName)} style={{ perspective: "1000px" }}>
-        <div ref={containerRef} onMouseEnter={(e) => handleMouseInteraction(e, true)}
-             onMouseMove={handleMouseInteraction}
-             onMouseLeave={(e) => handleMouseInteraction(e, false)}
-             className={("flex items-center justify-center relative transition-all duration-300 ease-linear", className)}
-             style={{ transformStyle: "preserve-3d" }}>
+        <div ref={containerRef} 
+            onMouseEnter={(e) => handleMouseInteraction(e, true)}
+            onMouseMove={handleMouseInteraction}
+            onMouseLeave={(e) => handleMouseInteraction(e, false)}
+            className={("flex items-center justify-center relative transition-all duration-300 ease-linear", className)}
+            style={{ transformStyle: "preserve-3d" }}>
           {children}
         </div>
       </div>
