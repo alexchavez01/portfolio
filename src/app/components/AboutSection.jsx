@@ -14,7 +14,7 @@ const TAB_DATA = [
         content: (
                 <ul className = "flex flex-wrap mx-10 justify-center sm:justify-start">
                     <li className="px-2 py-2 rounded-full mr-2 mb-2 bg-transparent hover:bg-slate-900 text-white border border-white mt-3">
-                     React</li>
+                        React</li>
                     <li className="px-2 py-2 rounded-full mr-2 mb-2 bg-transparent hover:bg-slate-900 text-white border border-white mt-3">
                         Javascript</li>
                     <li className="px-3 py-2 rounded-full mr-2 mb-2 bg-transparent hover:bg-slate-900 text-white border border-white mt-3">
@@ -41,7 +41,7 @@ const TAB_DATA = [
                     Wooster, Ohio
                 </li> 
                 <li className="px-5 py-2 rounded-full mr-2 mb-2 bg-transparent hover:bg-slate-900 text-white border border-white mt-3">
-                    B.A Computer Science
+                    Computer Science
                 </li>
             </ul>
         ),
@@ -66,7 +66,10 @@ const AboutSection = () => {
                            <ChangText></ChangText>
                      </h2>
                     <p className="mt-3">
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, voluptuous.
+                        
+                        Hello, I am Alex. I am currently a student at The College of Wooster. Pursuing a degree in Computer Science. As of now I am 
+                        currently trying to master the art of creating aesthically pleasing, but yet very functional websites. 
+                        I have knowledge in various software domains beyond web development. 
                     </p>
                 </div>
                 <div className="mt-4 sm:mt-0 flex flex-col items-center h-full order-last md:order-none">
