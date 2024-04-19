@@ -80,7 +80,7 @@ const HeroSection = () => {
     return (
         <section className="h-full w-full py-16" id="home" >
             <div className="flex flex-col justify-items-center place-self-center text-center">
-                <h1 className="text-white mb-4 ml-2 text-[4vw] sm:text-5xl lg:text-6xl font-extrabold">
+                <h1 className="text-white mb-4 ml-2 text-5xl sm:text-5xl lg:text-6xl font-extrabold">
                     <span className="text-transparent text-white">
                         Hello, I'm {" "} <br />
                     </span>
