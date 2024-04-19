@@ -79,8 +79,8 @@ import { motion } from 'framer-motion';
 const HeroSection = () => {
     return (
         <section className="h-full w-full py-16" id="home" >
-            <div className="flex flex-col justify-items-center place-self-center text-center">
-                <h1 className="text-white mb-4 ml-2 text-5xl sm:text-5xl lg:text-6xl font-extrabold">
+            <div className="flex flex-col flex-grow-[2] items-center place-self-center text-center">
+                <h1 className="text-white mb-4 text-[29px] sm:text-5xl lg:text-6xl font-extrabold">
                     <span className="text-transparent text-white">
                         Hello, I'm {" "} <br />
                     </span>
@@ -102,7 +102,7 @@ const HeroSection = () => {
                 <p className="text-[#ADB7BE] text-[3vw] sm:text-md mb-6 mt-3 lg:text-lg">
                     Just a CS student trying to become something more.
                 </p>
-                <div>
+                <div className="flex items-center">
                     <button className="px-5 py-2 w-auto rounded-full mr-4 bg-transparent hover:bg-slate-800 text-white border border-white mt-3">
                         <a href="downloads/Resume-alex.pdf" download="Resume-alex.pdf">Resume</a>
                     </button>
@@ -110,7 +110,7 @@ const HeroSection = () => {
             </div>
 
             {/* Avatar section with draggable functionality */}
-            <div className="mt-10 lg:mt-5 flex items-center justify-center">
+            <div className="mt-12 lg:mt-7 flex items-center justify-center">
                 <motion.div
                     drag 
                     dragConstraints={{ left: -350, right: 300, top: -150, bottom: 300 }}

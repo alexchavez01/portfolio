@@ -23,8 +23,8 @@ const Projects = () => {
           />
           <Procard
               src="images/image2.png"  
-              title="Game" 
-              description="A game"
+              title="Portfolio Webiste" 
+              description="Your lookin at it"
           />
         </div>
       </div>
