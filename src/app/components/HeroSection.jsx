@@ -45,7 +45,7 @@ const HeroSection = () => {
 
                     <motion.div
                         drag // Enables dragging of the component.
-                        dragConstraints={{ left: -100, right: 200, top: 0, bottom: 300 }} // Limits drag area.
+                        dragConstraints={{ left: -200, right: 200, top: -50, bottom: 300 }} // Limits drag area.
                         className="avatar-container rounded-full bg-white w-[275px] h-[275px] lg:w-[300px] lg:h-[300px] relative"
                         >
                         {/* Corner markers */}
