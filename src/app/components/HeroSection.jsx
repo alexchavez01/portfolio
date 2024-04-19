@@ -6,8 +6,8 @@ import { motion } from 'framer-motion'; // Importing motion component from Frame
 const HeroSection = () => {
     return (
         <section className="h-full w-full py-16" id="home"> {/* Full height, full width section with padding. */}
-            <div className="grid grid-cols-1 md:grid-cols-12"> {/* Responsive grid layout. */}
-                <div className="col-span-8 place-self-center text-center sm:text-left justify-self-start">
+            <div className="grid grid-cols-2 md:grid-cols-12 "> {/* Responsive grid layout. */}
+                <div className="col-span-2 md:col-span-8 place-self-center text-center sm:text-left justify-self-start">
                     <h1 className="text-white mb-4 text-5xl sm:text-5xl lg:text-5xl font-extrabold"> 
                         <span className="text-transparent text-white">
                             Hello, I'm {" "} <br /> 
