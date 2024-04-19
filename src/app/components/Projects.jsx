@@ -1,5 +1,4 @@
 import React from 'react';
-import ProjectCard from './ProjectCard';  // Component for displaying individual project cards, ensure the path is correct.
 import Procard from './procard';  // Component for displaying a specific styled project card.
 
 // Functional component to display a section of projects.
@@ -15,7 +14,7 @@ const Projects = () => {
           <Procard
               src="images/image2.png"  // Source path for the project image.
               title="Flask Website"  // Title of the project.
-              description="Deployed a Python Website"  // Short description of the project.
+              description= "Deployed a Python Website"  // Short description of the project.
           />
           <Procard
               src="images/image2.png"  
