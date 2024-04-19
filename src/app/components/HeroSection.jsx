@@ -80,7 +80,7 @@ const HeroSection = () => {
     return (
         <section className="h-full w-full py-16" id="home" >
             <div className="flex flex-col flex-grow-[2] items-center place-self-center text-center">
-                <h1 className="text-white mb-4 text-[29px] sm:text-5xl lg:text-6xl font-extrabold">
+                <h1 className="text-white mb-4 text-[29px] sm:text-6xl lg:text-7xl font-extrabold">
                     <span className="text-transparent text-white">
                         Hello, I'm {" "} <br />
                     </span>
@@ -113,7 +113,7 @@ const HeroSection = () => {
             <div className="mt-12 lg:mt-7 flex items-center justify-center">
                 <motion.div
                     drag 
-                    dragConstraints={{ left: -350, right: 300, top: -150, bottom: 300 }}
+                    dragConstraints={{ left: -500, right: 500, top: -150, bottom: 300 }}
                     className="avatar-container rounded-full bg-white w-[275px] h-[275px] lg:w-[300px] lg:h-[300px] relative"
                 >
                     <img
