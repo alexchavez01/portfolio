@@ -16,7 +16,10 @@ const Contact = () => {
                     </h2>
                     <div className='socials flex flex-row justify-center gap-4'>
                         {/* GitHub link with icon */}
-                        <Link href='https://github.com/alexchavez01'>
+                        <Link 
+                            href='https://github.com/alexchavez01'
+                            target="__blank" 
+                        >
                             <FaGithub
                                 alt="GitHub Logo"
                                 className='h-[50px] w-[50px] inline-block'
@@ -24,7 +27,10 @@ const Contact = () => {
                         </Link>
 
                         { /* LinkedIn link with icon */ }
-                        <Link href='https://www.linkedin.com/in/alex-chavez30/'>
+                        <Link 
+                            href='https://www.linkedin.com/in/alex-chavez30/'
+                            target="__blank"
+                        >
                             <FaLinkedin
                                 className='h-[50px] w-[50px] inline-block'
                                 alt="LinkedIn Icon" 
