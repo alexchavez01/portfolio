@@ -1,4 +1,4 @@
-// "use client"; // Ensures that this component is executed on the client side in a Next.js application.
+"use client"; // Ensures that this component is executed on the client side in a Next.js application.
 // import React, { useTransition, useState } from "react"; // Imports necessary React hooks.
 // import TabButton from "./TabButton"; // Imports a custom button component for tab functionality.
 // import ChangText from "./animations/Anime"; // Imports a custom animation component, likely for text animation.
@@ -93,7 +93,8 @@ import React from 'react';
 
 export default function AboutSection() {
   return (
-    <div className="min-h-screen bg-black text-white p-10">
+    <div id="about" > 
+    <div className="min-h-screen bg-black text-white p-10" >
       <div className="container mx-auto">
         <div className="flex flex-col items-center">
           <h1 className="text-3xl font-bold mb-6 relative">
@@ -116,7 +117,9 @@ export default function AboutSection() {
             <h2 className="flex justify-center text-2xl font-bold mb-4">Skills</h2>
             <div className="flex flex-wrap gap-4">
               {['C++', 'C#', 'JavaScript', 'Python', 'React.js', 'TailWindCSS', 'Node.js', 'TensorFlow', 'MySQL', 'Unity', 'Git', 'GitHub', 'React', 'HTML', 'CSS'].map(skill => (
-                <div key={skill} className="bg-gradient-to-r from-blue-400 to-purple-600 text-white px-3 py-1.5 w rounded">
+                <div key={skill} className="bg-gradient-to-r from-blue-400 to-purple-600 text-white px-3 py-1.5 w rounded 
+                 transition-transform duration-100 transform hover:translate-y-1 hover:scale-110 hover:bg-gradient-to-l hover:from-[#ED1E79] hover:to-[#662D8C] hover:shadow-lg
+                 hover:skew-y-2 hover:skew-x-1.3">
                   {skill}
                 </div>
               ))}
@@ -128,7 +131,8 @@ export default function AboutSection() {
             <div className="flex flex-wrap gap-4">
               {["Ambitious", "Collaboration", "Efficient", "Communication", "Adaptable", "Analytical Thinking", "Creativity", "Critical Thinking", "Empathy", "Teamwork", "Resilience", "Time Management", "Problem-Solving", "Open-Mindedness", "Decision-Making", 
                "Active Listening", "Patience", "Resourcefulness", "Self-Motivation"].map(skill => (
-                <div key={skill} className="bg-gradient-to-r from-[#662D8C] to-[#ED1E79] text-white px-3 py-1.5 w rounded">
+                <div key={skill} className="bg-gradient-to-r from-[#662D8C] to-[#ED1E79] text-white px-3 py-1.5 w rounded
+                transition-transform duration-100 transform hover:translate-y-1 hover:scale-110 hover:bg-gradient-to-l hover:from-purple-600 hover:to-blue-400 hover:shadow-lg">
                   {skill}
                 </div>
               ))}
@@ -136,6 +140,7 @@ export default function AboutSection() {
           </div>
         </div>
       </div>
+    </div>
     </div>
   );
 }
