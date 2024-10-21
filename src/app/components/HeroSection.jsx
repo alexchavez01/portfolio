@@ -104,7 +104,7 @@ const HeroSection = () => {
                 </p>
                 <div className="flex items-center">
                     <button className="px-5 py-2 w-auto rounded-full mr-4 bg-transparent hover:bg-slate-800 text-white border border-white mt-3">
-                        <a href="downloads/Resume-alex.pdf" download="Resume-alex.pdf">Resume</a>
+                        <a href="downloads/Resume-alex.pdf" download="Alex-Resume.pdf">Resume</a>
                     </button>
                 </div>
             </div>
