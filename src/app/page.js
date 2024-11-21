@@ -12,9 +12,7 @@ export default function Home() {
       <NavBar />
       <div className="container mx-auto px-12 py-12">
         <HeroSection />
-        <AboutSection />
-        <Projects/>
-        <Contact/>
+         
       </div>
 
     </main>

@@ -75,6 +75,7 @@
 import React from "react";
 import { TypeAnimation } from "react-type-animation";
 import { motion } from 'framer-motion';
+import Link from "next/link";
 
 const HeroSection = () => {
     return (
@@ -100,8 +101,12 @@ const HeroSection = () => {
                     />
                 </h1>
                 <p className="text-[#ADB7BE] text-[3vw] sm:text-md mb-6 mt-3 lg:text-lg">
-                    Just a CS student trying to become something more.
+                    Check out my new website: 
+                    <a href="https://www.alexchavez.com" className="text-blue-500 underline" target="_blank" rel="noopener noreferrer">
+                         https://www.alexchavez.com
+                    </a>
                 </p>
+
                 <div className="flex items-center">
                     <button className="px-5 py-2 w-auto rounded-full mr-4 bg-transparent hover:bg-slate-800 text-white border border-white mt-3">
                         <a href="downloads/Resume-alex.pdf" download="Alex-Resume.pdf">Resume</a>
