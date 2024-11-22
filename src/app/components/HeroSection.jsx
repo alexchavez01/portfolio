@@ -102,8 +102,8 @@ const HeroSection = () => {
                 </h1>
                 <p className="text-[#ADB7BE] text-[3vw] sm:text-md mb-6 mt-3 lg:text-lg">
                     Check out my new website: 
-                    <a href="https://www.alexchavez.com" className="text-blue-500 underline" target="_blank" rel="noopener noreferrer">
-                         https://www.alexchavez.com
+                    <a href="https://alexchavez01.github.io/portfolio_alex/" className="text-blue-500 underline" target="_blank" rel="noopener noreferrer">
+                    https://alexchavez01.github.io/portfolio_alex/
                     </a>
                 </p>
 
